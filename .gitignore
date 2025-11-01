@@ -1,0 +1,28 @@
+# Keep heavy binaries out; keep documents and certificates
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wmv
+*.mp3
+*.wav
+*.flac
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+*.tar.gz
+
+# Python / notebooks / OS junk
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Do NOT ignore documents; include PDFs, PPT, DOC, XLS
+!*.pdf
+!*.png
+!*.ppt*
+!*.doc*
+!*.xls*
